@@ -67,6 +67,12 @@ public class ProductControllerTest {
                 .expectStatus().isNoContent();
     }
 
+    // TODO - Application.properties must be correct
+    // TODO - SDK version must be correct as well (environment variables)
+    // TODO - Timeouts (increase length on slower computers)
+    // TODO - Double check - Imports
+    // TODO - application-test.properties (Last resort)
+
 }
 
 

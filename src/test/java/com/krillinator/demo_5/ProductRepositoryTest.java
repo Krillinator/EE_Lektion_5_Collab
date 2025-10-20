@@ -23,7 +23,7 @@ public class ProductRepositoryTest {
 
     @BeforeEach
     public void clearDatabase() {
-        productRepository.deleteAll().block();
+        productRepository.deleteAll().block(); // .block()
     }
 
     @Test
